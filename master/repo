@@ -216,11 +216,4 @@ Our Xcode {{ image.xcode_full_version }} images have the following SDKs preinsta
 
 {% for sdk in image.sdks %}
 
-- {{ sdk }}{% endfor %}
-
-The Xcode {{ image.xcode_full_version }} image also comes with the following simulators:
-{% for simulator in image.simulators %}
-
-- {{ simulator }}{% endfor %}
-
-{% endfor %}
+- {{ sdk }}{% endfo
